@@ -63,7 +63,6 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {"default": dj_database_url.config(default=config("SQLITE_URL"))}
 
 
-
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
